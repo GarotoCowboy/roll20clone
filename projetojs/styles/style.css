@@ -113,6 +113,60 @@ padding: 2rem 9%;
 /* INICIO index HTML */
 
 
+.inicio-slider {
+    width: 90%;
+    height: 80rem;
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+  }
+
+  .inicio-slider  .box {
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    font-size: 2.2rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inicio-slider .box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    
+   
+  }
+  .inicio-slider .box h3{
+    position: absolute;
+    text-align: center;
+    right: 120px;
+    z-index: 2;
+    
+  }
+
+  .inicio-slider .box .btn{
+    position: absolute;
+    z-index: 2;
+    bottom: 20rem;
+  }
+
+  
+/* .div-slider{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+    top: 15rem;
+
+}
+
  .inicio-slide{
     padding: 2rem;
     width: 100%;
@@ -122,17 +176,20 @@ padding: 2rem 9%;
 
 
  .inicio-slide .box{
-text-align: center;
-padding: 2rem;
-box-shadow: var(--box-shadow);
-border: var(--border);
-border-radius: .5rem;
-display: flex;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
  .inicio-slide .box img{
-    height: 15rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
  .inicio-slide .box:hover img{
@@ -142,7 +199,7 @@ display: flex;
  .inicio-slide .box h3{
 font-size: 2.2rem;
 color: var(--preto);
-}
+} */
 
 
 
@@ -250,37 +307,38 @@ display: flex;
 margin-bottom: 1.2rem;
 }
 
-.box{
+.loja .conteudo-loja .box{
     box-shadow: var(--box-shadow);
     padding: 1rem;
     margin-left: .9rem;
     border: var(--border);
 }
 
-.box img{
+.loja .conteudo-loja .box img{
     width: 32rem;
 }
 
-.box h3{
+.loja .conteudo-loja .box h3{
     text-align: center;
     color: var(--azul);
     font-size: 2.2rem;
 }
-.box h4{
+.loja .conteudo-loja .box h4{
 color: var(--vermelhoClaro);
 font-size: 2.5rem;
 }
 
-.box span{
+.loja .conteudo-loja .box span{
     color: var(--vermelho);
     }
 
-    .box:hover{
+    .loja .conteudo-loja .box:hover{
         padding: 2rem;
+        transform: scale(0.8);
         background-color: var(--azul);
     }
 
-        .box:hover h3{
+.loja .conteudo-loja .box:hover h3{
             color: var(--branco);
         }
 
